@@ -495,3 +495,55 @@ html{
 .award-year strong {
     color: #fff;
 }
+#owners {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.owners-subtitle {
+    text-align: center;
+    color: #ddd;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+}
+
+.owner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,215,0,.15);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin: 10px 0;
+    font-size: 1.15rem;
+}
+
+.rank {
+    width: 90px;
+    font-weight: bold;
+    color: gold;
+}
+
+.name {
+    flex: 1;
+    text-align: left;
+    font-weight: 600;
+}
+
+.record {
+    font-weight: bold;
+    color: #ddd;
+}
+
+.gold {
+    border-color: gold;
+}
+
+.silver {
+    border-color: silver;
+}
+
+.bronze {
+    border-color: #cd7f32;
+}
