@@ -607,3 +607,98 @@ html{
     font-size: 1.15rem;
     font-weight: bold;
 }
+/* -------------------------------
+   CSS Lombardi Trophy
+-------------------------------- */
+
+.lombardi{
+    width:90px;
+    height:130px;
+    margin:0 auto 18px;
+    position:relative;
+    transition:.35s ease;
+}
+
+.football{
+    width:54px;
+    height:76px;
+    position:absolute;
+    left:19px;
+    top:0;
+
+    background:linear-gradient(
+        145deg,
+        #fff8c8,
+        #ffd95e,
+        #d4a017
+    );
+
+    border-radius:50%;
+    transform:rotate(-30deg);
+
+    box-shadow:
+        0 0 18px rgba(255,215,0,.45);
+}
+
+.football::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:22px;
+    height:2px;
+
+    background:white;
+
+    top:36px;
+    left:16px;
+
+    box-shadow:
+        0 -6px 0 white,
+        0 6px 0 white;
+}
+
+.stem{
+
+    position:absolute;
+
+    width:18px;
+    height:42px;
+
+    left:36px;
+    top:58px;
+
+    background:linear-gradient(
+        #ffe27a,
+        #bf8d00
+    );
+}
+
+.base{
+
+    position:absolute;
+
+    width:58px;
+    height:42px;
+
+    left:16px;
+    bottom:0;
+
+    background:linear-gradient(
+        #f6d66f,
+        #b8860b
+    );
+
+    clip-path:polygon(
+        20% 0,
+        80% 0,
+        100% 100%,
+        0 100%
+    );
+}
+
+.trophy-card:hover .lombardi{
+
+    transform:scale(1.1);
+}
