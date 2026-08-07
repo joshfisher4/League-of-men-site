@@ -461,3 +461,37 @@ html{
 .stat-box p{
     font-size:.9rem;
 }
+#awards {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.award-year {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,215,0,0.25);
+    border-radius: 15px;
+    padding: 18px 22px;
+    margin: 22px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3);
+}
+
+.award-year h3 {
+    color: #FFD700;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 14px;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 8px;
+}
+
+.award-year p {
+    margin: 8px 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.award-year strong {
+    color: #fff;
+}
