@@ -702,3 +702,66 @@ html{
 
     transform:scale(1.1);
 }
+#trophy-case {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#trophy-case h2 {
+    text-align: center;
+    color: gold;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.trophy-owner {
+    background: #1a1a1a;
+    border: 2px solid rgba(255,215,0,.35);
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 18px rgba(255,215,0,.15);
+}
+
+.champion {
+    border-color: gold;
+}
+
+.trophy-owner h3 {
+    color: gold;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.trophies {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.trophies img {
+    width: 70px;
+    height: auto;
+    filter: drop-shadow(0 0 10px gold);
+}
+
+.trophy-owner p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.trophy-owner small {
+    color: #aaa;
+    font-size: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgba(255,215,0,.4);
+    margin: 35px 0;
+}
