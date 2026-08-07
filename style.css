@@ -547,3 +547,63 @@ html{
 .bronze {
     border-color: #cd7f32;
 }
+/* ===== Hall of Champions ===== */
+
+#champions {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+#champions h2 {
+    color: gold;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.trophy-room {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+    gap: 30px;
+}
+
+.trophy-card {
+    background: linear-gradient(180deg,#2d2d2d,#171717);
+    border: 2px solid rgba(255,215,0,.45);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow:
+        0 0 25px rgba(255,215,0,.15),
+        inset 0 0 18px rgba(255,255,255,.05);
+    transition: .35s;
+}
+
+.trophy-card:hover {
+    transform: translateY(-10px);
+    box-shadow:
+        0 0 35px rgba(255,215,0,.5),
+        0 10px 30px rgba(0,0,0,.45);
+}
+
+.lombardi {
+    width: 95px;
+    margin-bottom: 18px;
+    transition: .35s;
+    filter: drop-shadow(0 0 10px rgba(255,215,0,.6));
+}
+
+.trophy-card:hover .lombardi {
+    transform: scale(1.12) rotate(-4deg);
+}
+
+.trophy-card h3 {
+    color: gold;
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+}
+
+.trophy-card p {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
